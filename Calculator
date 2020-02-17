@@ -4,12 +4,29 @@ def welcome():
 	print("(Formerly known as City Calculator)")
 
 def calculate():
-	num_1 = int(input("Enter first number you need our crack team of Asian Basement Inc Mathmagicians to work with: "))
-		if(num_1.isdigit()):
+	num_1 = input("Enter first number you need our crack team of Asian Basement Inc Mathmagicians to work with: ")	
+		try:
+		val_1 = int(num_1)
+		print("Valid number: ", val_1)
+	except ValueError:
+		try:
+			float(num_1)
+			print("Valid number: ", val:1)
+		except ValueError:
+			print("Not a number. Try again")
+		
+	num_2 = input("Enter second number you need our crack team of Asian Basement Inc Mathmagicians to work with: ")
+		try:
+		val_2 = int(num_2)
+		print("Valid number: ", val_2)
+	except ValueError:
+		try:
+			float(num_2)
+			print("Valid number: ", val_2)
+		except ValueError:
+			print("Not a number. Try again")
 
-		else
-			print("Not a number, try again")
-	num_2 = int(input("Enter second number you need our crack team of Asian Basement Inc Mathmagicians to work with: "))
+#Decide what to do with the numbers
 	operation = input("""
 Please enter how our crack team of Asian Basement Inc Mathmagicians will work with your numbers:
 Option 1: Addition: +
