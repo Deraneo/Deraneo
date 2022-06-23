@@ -1,0 +1,81 @@
+print('''
+*******************************************************************************
+                       ...
+           s,                .                    .s
+            ss,              . ..               .ss
+            'SsSs,           ..  .           .sSsS'
+             sSs'sSs,        .   .        .sSs'sSs
+              sSs  'sSs,      ...      .sSs'  sSs
+               sS,    'sSs,         .sSs'    .Ss
+               'Ss       'sSs,   .sSs'       sS'
+      ...       sSs         ' .sSs'         sSs       ...
+     .           sSs       .sSs' ..,       sSs       .
+     . ..         sS,   .sSs'  .  'sSs,   .Ss        . ..
+     ..  .        'Ss .Ss'     .     'sSs. ''        ..  .
+     .   .         sSs '       .        'sSs,        .   .
+      ...      .sS.'sSs        .        .. 'sSs,      ...
+            .sSs'    sS,     .....     .Ss    'sSs,
+         .sSs'       'Ss       .       sS'       'sSs,
+      .sSs'           sSs      .      sSs           'sSs,
+   .sSs'____________________________ sSs ______________'sSs,
+.sSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS'.Ss SSSSSSSSSSSSSSSSSSSSSs,
+                        ...         sS'
+                         sSs       sSs
+                          sSs     sSs       
+                           sS,   .Ss
+                           'Ss   sS'
+                            sSs sSs
+                             sSsSs
+                              sSs
+                               s
+*******************************************************************************
+''')
+print("Welcome to Hell.")
+print("Find a way to escape.") 
+
+answer_room1 = input("""Satan demands a gift! 
+What do you give him? 
+Succubus, Football or Flower? """)
+answer_room1_lower = answer_room1.lower()
+
+
+if answer_room1_lower == "flower":
+  print("Satan thanks you, then impales you with a trident. Game over.")
+elif answer_room1_lower == "football":
+  print("Satan says he prefers bowling, then impales you with a fishing pole. Game over.")
+elif answer_room1_lower == "succubus":
+  print("""
+  Satan thanks you and tells you to piss off, since he's about to get busy.
+  You run out of the door.        
+
+You find yourself in Satan's living room.
+There are three doors, maked "Bog", "Hag" and "Bag".""")
+
+  answer_room2 = input("Which door do you take? ")
+  answer_room2_lower = answer_room2.lower()
+  if answer_room2_lower == "bog":
+    print("You run into the bathroom, where Satan's mum is taking a dump. The smell kills you. Game over.")
+  elif answer_room2_lower == "bag":
+    print("You run into a room where you get instantly put in a bag and beaten to death with sticks. Game over.")
+  elif answer_room2_lower == "hag":
+    print("A hag greets you and says she will help you escape if you can answer her riddle!")
+ 
+    answer_room3 = input("What is my name? Gryszeldah, Vixtoriaz or Bob? ")
+    answer_room3_lower = answer_room3.lower()
+    
+    if answer_room3_lower == "vixtoriaz":
+      print("She screams that it's her sister's name and she hates her. She pulls your heart out of your chest. Game over.")
+    elif answer_room3_lower == "gryszeldah":
+      print("She says 'nope' and murders you with fireworks. Game over.")
+    elif answer_room3_lower == "bob":
+      print("She says none of the names were right, but she likes you for guessing 'Bob'. She teleports you to safety. You win!")
+    else:
+      print("She says that wasn't an option and turns you into a ingrown toenail. Game over.")
+  
+  else:
+    print("You couldn't decide, so you ran into a wall and broke your neck. Game over.")
+else:
+  print("You couldn't even do that right. Game over, numbnuts.")
+  
+
+  
