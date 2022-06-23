@@ -69,6 +69,17 @@ There are three doors, maked "Bog", "Hag" and "Bag".""")
       print("She says 'nope' and murders you with fireworks. Game over.")
     elif answer_room3_lower == "bob":
       print("She says none of the names were right, but she likes you for guessing 'Bob'. She teleports you to safety. You win!")
+      print('''
+              .-=========-.
+              \'-=======-'/
+              _|   .=.   |_
+             ((|  {{1}}  |))
+              \|   /|\   |/
+               \__ '`' __/
+                 _`) (`_
+               _/_______\_
+              /___________\
+            ''')
     else:
       print("She says that wasn't an option and turns you into a ingrown toenail. Game over.")
   
@@ -76,6 +87,3 @@ There are three doors, maked "Bog", "Hag" and "Bag".""")
     print("You couldn't decide, so you ran into a wall and broke your neck. Game over.")
 else:
   print("You couldn't even do that right. Game over, numbnuts.")
-  
-
-  
